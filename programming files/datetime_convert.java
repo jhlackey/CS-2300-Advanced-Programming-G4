@@ -5,6 +5,7 @@ public class datetime_convert {
     public static void main(String[] args) {
         // John bug
         String dateStr = "2022-03-17 10:45:30";
+        
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-DD HH:mm:ss");
         // Convert from string data type to LocalDateTIme
         LocalDateTime dateObj = LocalDateTime.parse(dateStr, formatter);
