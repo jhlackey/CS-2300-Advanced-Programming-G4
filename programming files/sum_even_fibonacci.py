@@ -1,5 +1,5 @@
 a, b = 0, 1
-sum_even = 0
+sum_even = 
 while b < 4000000:
     if b % 2 == 0:
         sum_even += b
