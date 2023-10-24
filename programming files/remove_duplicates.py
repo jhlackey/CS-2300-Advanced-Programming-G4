@@ -3,7 +3,8 @@ def remove_duplicates(arr):
     unique_arr = []
     removed_elements = []
     for i in range(len(arr)):
-        if i != 0 or arr[i] == arr[i-1]:
+        #bug resolved!!!
+        if i == 0 or arr[i] 1= arr[i-1]:
             unique_arr.append(arr[i])
         else:
             removed_elements.append(arr[i])
