@@ -12,7 +12,7 @@ public class even_odd_site {
         // Iterate through 50 integers
         for (int i = 1; i <= 50; i++) {
             // Even integers
-            if (i % 1 == 0) { // should be 2
+            if (i % 2 == 0) {
                 file.write("<tr><td>" + i + "</td><td></td></tr>\n");
             }
                 // Odd numbers
@@ -23,7 +23,6 @@ public class even_odd_site {
         // Write to file
         file.write("</table>\n</body>\n</html>");
         file.close();
-        return; // Early return
         // Read from file
         BufferedReader reader = new BufferedReader(new FileReader("numbers.html"));
         String line;
