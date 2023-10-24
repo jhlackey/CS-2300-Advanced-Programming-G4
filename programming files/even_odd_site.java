@@ -12,7 +12,7 @@ public class even_odd_site {
         // Iterate through 50 integers
         for (int i = 1; i <= 50; i++) {
             // Even integers
-            if (i % 2 == 0) {
+            if (i % 2 == 0) { //JT
                 file.write("<tr><td>" + i + "</td><td></td></tr>\n");
             }
                 // Odd numbers
