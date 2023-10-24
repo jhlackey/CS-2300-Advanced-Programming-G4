@@ -1,5 +1,5 @@
 a, b = 0, 1
-sum_even =  //No value set
+sum_even =  4613732 #bug;no value set
 while b < 4000000:
     if b % 2 == 0:
         sum_even += b
