@@ -8,15 +8,15 @@ with open("numbers.html", "w") as f:
     for i in range(1, 50):
         # Write even numbers
         #this line has a bug
-        if i % 1 == 0: # Should be 2
+        if i % 2 == 0: # Should be 2
             f.write("<tr><td>{}</td><td></td></tr>\n".format(i))
         # Write odd numbers
         else:
             f.write("<tr><td></td><td>{}</td></tr>\n".format(i))
     f.write("</table>\n</body>\n</html>")
 #this line also has a bug    
-exit(-1) # Early exit
+ # Early exit
 # Read from numbers
 with open("numbers.html", "r") as f:
     print(f.read())
-    
+ exit(-1)   
