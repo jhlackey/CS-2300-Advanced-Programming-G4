@@ -3,7 +3,7 @@ sum_even =  //No value set
 while b < 4000000:
     if b % 2 == 0:
         sum_even += b
-    a, b = b, a+b //b should equal a + b && a doesn't change in value
+    a, b = b, a+b
 
 print(sum_even)
 
